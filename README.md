@@ -68,3 +68,20 @@ Rule-based decision logic
 🖥 System Architecture
 
 Mission Planning → Detection → Decision Logic → Payload Deployment → Logging → Safety Monitoring
+
+## 🧠 System Workflow
+
+Mission Planning  
+→ Telemetry Simulation  
+→ Wildlife Detection  
+→ Intervention Decision Logic  
+→ Payload Deployment  
+→ Logging & Safety Monitoring
+
+## 🎓 What We Learned
+
+- Designing mission-critical dashboards
+- Implementing rule-based decision logic
+- Rapid prototyping under 24-hour constraints
+- Building simulation-based drone workflows
+- Structuring UI for operational clarity
