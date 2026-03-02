@@ -1,30 +1,49 @@
 🚁 Precision Wildlife Contraceptive Delivery Drone System
 
-A Mission Planner–inspired Ground Control Station prototype built during Techdivathon (20–21 February), where our team secured a Top 10 position.
+Techdivathon (20–21 February) | Top 10 Finish
 
-🌳 Problem
+A Mission Planner–inspired Ground Control Station prototype designed for humane wildlife population management using autonomous drones.
 
-Wild boar overpopulation leads to crop damage, ecosystem imbalance, and rising human–wildlife conflict. Existing methods like culling are controversial and often unsustainable.
+📌 Overview
 
-🧠 Solution (Prototype)
+This project demonstrates a drone-based wildlife intervention workflow focused on wild boar overpopulation.
+Built within 24 hours, the prototype simulates mission planning, wildlife detection, decision logic, and fail-safe safety systems.
 
-This project demonstrates a drone-based wildlife management workflow including:
+🌳 Problem Statement
 
-Interactive mission planning dashboard
+Wild boar overpopulation causes:
 
-Simulated drone telemetry
+Crop destruction
 
-Wildlife detection workflow (wild boar focus)
+Economic losses
 
-Automated intervention authorization logic
+Ecosystem imbalance
 
-Primary edible pod deployment concept
+Increased human–wildlife conflict
 
-Fail-safe landing & safety simulation
+Current solutions such as culling or relocation are often controversial, costly, or unsustainable.
 
-Structured event logging
+🧠 Proposed Solution (Prototype)
+
+Our system integrates:
+
+🗺 Interactive mission planning (satellite map + waypoints)
+
+📡 Simulated real-time drone telemetry
+
+🎯 Wildlife detection workflow (wild boar focus)
+
+⚙ Automated intervention authorization logic
+
+📦 Primary edible pod deployment concept
+
+🛑 Fail-safe landing & recovery simulation
+
+📊 Structured event logging system
 
 🛠 Tech Stack (Prototype Level)
+
+Frontend:
 
 React
 
@@ -32,16 +51,12 @@ TypeScript
 
 Tailwind CSS
 
-Simulation-based backend logic
+Simulation & Logic:
 
-⚠️ Note
+Workflow-based simulation engine
 
-This is a hackathon prototype focused on system design and simulation logic, not a production-ready drone control system.
+Rule-based decision logic
 
-👥 Team
+🖥 System Architecture
 
-Chhayanka Dabhadker
-
-Aanya Dubey
-
-Charvi Thakur
+Mission Planning → Detection → Decision Logic → Payload Deployment → Logging → Safety Monitoring
