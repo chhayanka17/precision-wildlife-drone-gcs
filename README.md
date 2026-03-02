@@ -1,5 +1,13 @@
 🚁 Precision Wildlife Contraceptive Delivery Drone System
 
+## 🚀 Key Highlights
+- Mission Planner–inspired Ground Control System
+- Real-time telemetry simulation
+- Wildlife detection workflow (wild boar focus)
+- Automated intervention authorization logic
+- Primary edible pod deployment concept
+- Fail-safe landing & safety simulation
+  
 Techdivathon (20–21 February) | Top 10 Finish
 
 A Mission Planner–inspired Ground Control Station prototype designed for humane wildlife population management using autonomous drones.
