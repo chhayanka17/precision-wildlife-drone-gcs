@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --color-gcs-bg: #0b0c0e;
+  --color-gcs-panel: #141619;
+  --color-gcs-border: #2a2d32;
+  --color-gcs-accent: #00ff41;
+  --color-gcs-warning: #ffaa00;
+  --color-gcs-danger: #ff4444;
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-gcs-bg text-zinc-300 antialiased font-sans select-none;
+  }
+}
+
+.gcs-panel {
+  @apply bg-gcs-panel border border-gcs-border shadow-2xl;
+}
+
+.gcs-input {
+  @apply bg-zinc-900/50 border border-gcs-border rounded px-2 py-1 text-xs font-mono focus:border-gcs-accent outline-none transition-colors;
+}
+
+.gcs-btn {
+  @apply px-4 py-2 rounded text-xs font-bold uppercase tracking-wider transition-all disabled:opacity-50;
+}
+
+.gcs-btn-primary {
+  @apply bg-zinc-800 hover:bg-zinc-700 text-zinc-100 border border-zinc-700;
+}
+
+.gcs-btn-accent {
+  @apply bg-gcs-accent/10 hover:bg-gcs-accent/20 text-gcs-accent border border-gcs-accent/30;
+}
+
+.vignette {
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+}
+
+/* Attitude Indicator SVG styling */
+.horizon-sky { fill: #3355ff; }
+.horizon-ground { fill: #8b4513; }
+
