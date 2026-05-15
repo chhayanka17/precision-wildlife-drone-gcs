@@ -95,6 +95,6 @@ Following the hackathon, the project was further refined and extended into a mor
 https://precision-wildlife-dronegcs.vercel.app
 
 🎥 **Hackathon Demo Video:**  
-[Precision Wildlife Contraceptive Delivery Drone System]((https://drive.google.com/file/d/142wdyCgDZ2jCddjAtm7YyJkV0Brg1STX/view?usp=sharing))
+[Precision Wildlife Contraceptive Delivery Drone System](https://drive.google.com/file/d/142wdyCgDZ2jCddjAtm7YyJkV0Brg1STX/view?usp=sharing)
 
 
