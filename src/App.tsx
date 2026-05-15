@@ -10,6 +10,8 @@ import DashboardPage from './pages/DashboardPage';
 import LoginPage from './pages/LoginPage';
 import { GCSProvider } from './contexts/GCSContext';
 
+const API_URL = "https://precision-wildlife-dronegcs-production.up.railway.app";
+
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(!!localStorage.getItem('token'));
 
@@ -36,3 +38,6 @@ export default function App() {
     </Router>
   );
 }
+
+// Export API_URL for use in other components
+export { API_URL };
