@@ -1,6 +1,4 @@
-﻿@"
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
-"@ | Out-File -Encoding UTF8 -NoNewline vercel.json
