@@ -10,8 +10,7 @@ import DashboardPage from './pages/DashboardPage';
 import LoginPage from './pages/LoginPage';
 import { GCSProvider } from './contexts/GCSContext';
 
-const API_URL = "https://precision-wildlife-dronegcs-production.up.railway.app";
-
+const API_URL = import.meta.env.VITE_API_URL || "https://precision-wildlife-dronegcs-production.up.railway.app";
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(!!localStorage.getItem('token'));
 
