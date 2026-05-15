@@ -87,9 +87,14 @@ Built for Techdivathon — educational and competition purposes only.
 
 ## 🌐 Live Demo
 
-🔗 **Deployed Prototype:**  
-[Add Deployed Site Link Here](https://your-deployed-site-link.com)
+This project was originally developed as a rapid prototype during **Techdivathon (20–21 Feb)**, where our team secured a **Top 10 finish** within a 24-hour hackathon environment.
 
-🎥 **Demo Video:**  
-[Precision Wildlife Contraceptive Delivery Drone](precision-wildlife-dronegcs.vercel.app)
+Following the hackathon, the project was further refined and extended into a more structured web-based prototype to better demonstrate the workflow, UI architecture, and operational simulation concepts.
+
+🔗 **Extended Prototype Deployment:**  
+https://precision-wildlife-dronegcs.vercel.app
+
+🎥 **Hackathon Demo Video:**  
+[Precision Wildlife Contraceptive Delivery Drone System]((https://drive.google.com/file/d/142wdyCgDZ2jCddjAtm7YyJkV0Brg1STX/view?usp=sharing))
+
 
