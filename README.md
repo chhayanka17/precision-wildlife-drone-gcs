@@ -8,7 +8,7 @@
 ## 🌐 Live Demo
 
 🔗 **Deployed Prototype:**  
-[Add Deployed Site Link Here](precision-wildlife-dronegcs.vercel.app)
+[Precision Wildlife Delivery Drone](precision-wildlife-dronegcs.vercel.app)
 
 # 📌 Overview
 
